@@ -58,7 +58,7 @@ $(document).ready(function() {
             return 0; // No tax owed
         }
 
-        // Apply tax rates based on age
+        // Apply tax rates based on age 
         let taxRate = 0;
         switch (age) {
             case "<40":
