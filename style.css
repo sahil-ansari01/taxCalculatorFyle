@@ -1,0 +1,108 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 50px;
+  padding-top: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+  
+}
+
+.modal-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6869f5;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 1rem;
+}
+
+.error-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+  color: red;
+}
+
+.error-icon:hover {
+  cursor: pointer;
+}
+
+.question-icon {
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.question-icon:hover {
+  color: #007bff;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #6869f5;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1c1cc0;
+}
+
+.btnClose {
+  width: 100px;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+
+.modal-dialog {
+  max-width: 600px;
+  margin: 1.75em auto;
+}
+
+.modal-body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+  height: 300px;
+}
+
+#resultText {
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.tooltip .tooltip-inner {
+  width: 160px;
+  margin-left: 120px;
+  padding: 8px 12px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #4c5d6b;
+  color: #fff;
+  text-align: left;
+}
+
+.tooltip .arrow::before {
+  border-top-color: #4c5d6b;
+}

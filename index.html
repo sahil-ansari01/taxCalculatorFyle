@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tax Calculator</title>
 
-    <!-- stylesheet -->
+    <!-- stylesheets -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
        <form id="taxForm">
         <!-- Gross income form group -->
         <div class="form-group">
-            <label for="grossIncome">Enter gross annual income <span class="fas fa-question-circle question-icon" data-toggle="tooltip" data-placement="bottom" title="Gross annual income is your salary in a year before any deductions."></span>:</label>
+            <label for="grossIncome">Enter gross annual income <span class="fas fa-question-circle question-icon" data-toggle="tooltip" data-placement="top" title="Gross annual income is your total salary in a year before any deductions."></span>:</label>
             <input type="text" class="form-control" id="grossIncome" placeholder="Enter gross annual income">
             <div class="error-icon" id="incomeErrorIcon" data-toggle="tooltip" data-placement="right"></div>
         </div>
@@ -43,23 +43,24 @@
             <div class="error-icon" id="deductionsErrorIcon" data-toggle="tooltip" data-placement="right"></div>
         </div>
         <!-- Submit buttons -->
-        <button type="button" class="btn btn-primary" id="submitBtm">Submit</button>
+        <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
        </form>
     </div>
 
     <!-- Modal section starts here -->
-    <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel" area-hidden="true">
+    <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <p id="resultText"></p>
+                    <button type="button" class="btn btn-primary btnClose" data-dismiss="modal">Close</button>
                 </div>
-                <button type="button" class="btn btn-primary btnClose" data-dismiss="modal">Close</button>
+                
             </div>
         </div>
     </div>
     
-    <!-- script -->
+    <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
