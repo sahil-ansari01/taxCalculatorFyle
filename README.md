@@ -9,7 +9,7 @@ This is a simple web-based tax calculator designed to help individuals estimate 
 
 ## How to Use
 
-1. Open the [live](https://getbootstrap.com/) hosted project in your web browser.
+1. Open the [live](https://tax-calculator-fyle.vercel.app/) hosted project in your web browser.
 2. Fill in the required fields:
    - **Gross Annual Income**: Enter your total salary before any deductions.
    - **Extra Income**: Input any additional income earned from other sources.
@@ -33,7 +33,7 @@ This is a simple web-based tax calculator designed to help individuals estimate 
 
 ## Hosting
 
-This project is hosted on [Vercel](https://vercel.com/). You can access it at [project-name.vercel.app](https://project-name.vercel.app).
+This project is hosted on [Vercel](https://vercel.com/). You can access it at [Tax Calculator](https://tax-calculator-fyle.vercel.app/).
 
 ## Authors
 
