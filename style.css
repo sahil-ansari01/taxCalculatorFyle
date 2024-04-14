@@ -32,10 +32,16 @@
 
 .error-icon {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  display: none;
-  color: red;
+  top: -20px;
+  right: 0;
+  z-index: 1; 
+  color: #b6bec7;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.input-group {
+  position: relative;
 }
 
 .error-icon:hover {
@@ -43,12 +49,8 @@
 }
 
 .question-icon {
-  color: #6c757d;
+  color: #b6bec7;
   cursor: pointer;
-}
-
-.question-icon:hover {
-  color: #007bff;
 }
 
 .btn-primary {
