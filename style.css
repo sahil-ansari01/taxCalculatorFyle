@@ -8,7 +8,7 @@
   border-radius: 5px;
   position: relative;
   background-color: white;
-  
+  font-family: "Comfortaa", sans-serif;
 }
 
 .modal-header {
@@ -28,6 +28,54 @@
 
 .modal-body {
   padding: 1rem;
+}
+
+.modal-dialog {
+  max-width: 600px;
+  margin: 1.75em auto;
+}
+
+.modal-body {
+    display: grid;
+    align-items: center;
+}
+
+.modal-content {
+  height: 300px;
+
+}
+
+.modal-body p {
+  margin: 0; 
+  padding: 0;
+  margin-bottom: 10px; 
+}
+
+#resultText{
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 30px;
+  text-align: center;  
+  display: grid;
+}
+
+#resultText hr {
+  margin: 1px 0; 
+  border: none;
+}
+
+#resultText span.dynamicData {
+  width: auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#resultText span.lastLineText {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .error-icon {
@@ -69,26 +117,6 @@
   width: 100px;
   margin-top: 100px;
   margin: 0 auto;
-}
-
-.modal-dialog {
-  max-width: 600px;
-  margin: 1.75em auto;
-}
-
-.modal-body {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-content {
-  height: 300px;
-}
-
-#resultText {
-  font-size: 25px;
-  text-align: center;  
 }
 
 .tooltip .tooltip-inner {

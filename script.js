@@ -66,8 +66,11 @@ $(document).ready(function() {
                 }
             }
 
+            // Format tax amount with commas
+            let formattedTax = tax.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
             // Display result in modal
-            $('#resultText').html(`Your overall income will be <hr>${tax.toFixed(0)}  <hr>after tax deductions<hr>`);
+            $('#resultText').html(`<strong>Your overall income will be</strong> <span class="dynamicData"><hr>${formattedTax} </span><hr><span class="lastLineText">after tax deductions</span>`);
             $('#resultModal').modal('show');
 
         }
