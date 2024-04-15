@@ -143,6 +143,8 @@
 @media (max-width: 768px) {
   .container {
     width: 90%;  
+    padding: 30px;
+    padding-top: 100px;
   }
 
   .modal-dialog {
