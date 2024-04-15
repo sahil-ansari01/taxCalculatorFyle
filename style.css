@@ -78,6 +78,22 @@
   line-height: 1;
 }
 
+.tooltip .tooltip-inner{
+  width: 214px !important;
+  margin-left:0 !important;
+  position: absolute;
+  top: -57px;
+  left:-30px;
+}
+.tooltip-inner{
+  max-width: 214px !important;
+}
+.tooltip .arrow{
+  rotate: 270deg;
+  top: -22px !important;
+  left:-11px !important;
+}
+
 .error-icon {
   position: absolute;
   top: -20px;
@@ -87,7 +103,9 @@
   margin-right: 10px;
   margin-top: 30px;
 }
-
+.error-input{
+  margin:0!important;
+}
 .input-group {
   position: relative;
 }
@@ -134,9 +152,12 @@
   color: #fff;
   text-align: left;
 }
+.arrow::before{
+  border-right-color: #4c5d6b !important;
+}
 
 .tooltip .arrow::before {
-  border-top-color: #4c5d6b;
+  /* border-top-color: #4c5d6b; */
 }
 
 /* Media query for screens smaller than 768px (typical mobile devices) */
