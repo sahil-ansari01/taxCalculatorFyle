@@ -15,8 +15,13 @@ This is a simple web-based tax calculator designed to help individuals estimate 
    - **Extra Income**: Input any additional income earned from other sources.
    - **Age Group**: Select your age group from the dropdown list.
    - **Deductions**: Add total applicable deductions to reduce taxable income.
+      ![inputs](https://github.com/sahil-ansari01/taxCalculatorFyle/assets/108484457/e949cf7e-5f8c-487b-a829-0559b4d6da65)
 3. Click the **Submit** button to calculate your overall income after tax deductions.
 4. View the result displayed in the modal.
+   ![outputs](https://github.com/sahil-ansari01/taxCalculatorFyle/assets/108484457/b118f09f-55f2-4eaa-bf7d-9b551328192e)
+
+## Error Handled
+![errorHandled](https://github.com/sahil-ansari01/taxCalculatorFyle/assets/108484457/917c7000-d9cc-411b-90ba-641fef64beeb)
 
 ## Dependencies
 
