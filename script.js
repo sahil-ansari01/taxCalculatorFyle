@@ -67,8 +67,9 @@ $(document).ready(function() {
             }
 
             // Display result in modal
-            $('#resultText').text(`Your overall income will be ${tax.toFixed(0)} after tax deductions`);
+            $('#resultText').html(`Your overall income will be <hr>${tax.toFixed(0)}  <hr>after tax deductions<hr>`);
             $('#resultModal').modal('show');
+
         }
     });
 
