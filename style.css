@@ -138,3 +138,44 @@
 .tooltip .arrow::before {
   border-top-color: #4c5d6b;
 }
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;  
+  }
+
+  .modal-dialog {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  .modal-header {
+    position: static;
+  }
+
+  .modal-body {
+    padding: 0.75rem;
+  }
+
+  #resultText {
+    font-size: 24px;
+  }
+
+  #resultText span.dynamicData {
+    font-size: 18px;
+  }
+
+  #resultText span.lastLineText {
+    font-size: 14px;
+  }
+
+  .error-icon {
+    top: -15px;
+    margin-top: 20px;
+  }
+
+  .btnClose {
+    margin-top: 20px;
+  }
+}
