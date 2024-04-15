@@ -119,6 +119,10 @@
   margin: 0 auto;
 }
 
+.btnSubmit {
+  margin-top: 30px;
+}
+
 .tooltip .tooltip-inner {
   width: 160px;
   margin-left: 120px;
